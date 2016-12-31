@@ -27,4 +27,38 @@ public class MainActivity extends AppCompatActivity {
         mp = MediaPlayer.create(this,R.raw.gatosound);
         mp.start();
     }
+    public void playTigre(View view){
+        Toast toast = Toast.makeText(this,R.string.tigre,Toast.LENGTH_SHORT);
+        toast.show();
+        mp = MediaPlayer.create(this,R.raw.tigersound);
+        mp.start();
+    }
+
+    public void playBurro(View view){
+        Toast toast = Toast.makeText(this,R.string.burro,Toast.LENGTH_SHORT);
+        toast.show();
+        mp = MediaPlayer.create(this,R.raw.burrosound);
+        mp.start();
+    }
+
+    public void playCabra(View view){
+        Toast toast = Toast.makeText(this,R.string.cabra,Toast.LENGTH_SHORT);
+        toast.show();
+        mp = MediaPlayer.create(this,R.raw.cabrasound);
+        mp.start();
+    }
+
+    public void playMono(View view){
+        Toast toast = Toast.makeText(this,R.string.mono,Toast.LENGTH_SHORT);
+        toast.show();
+        mp = MediaPlayer.create(this,R.raw.monosound);
+        mp.start();
+    }
+
+    public void playVaca(View view){
+        Toast toast = Toast.makeText(this,R.string.vaca,Toast.LENGTH_SHORT);
+        toast.show();
+        mp = MediaPlayer.create(this,R.raw.vacasound);
+        mp.start();
+    }
 }

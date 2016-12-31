@@ -27,7 +27,57 @@
         android:id="@+id/gato"
         android:layout_alignBottom="@+id/perro"
         android:layout_toEndOf="@+id/perro"
-        android:layout_marginStart="31dp"
+        android:layout_marginStart="49dp"
         android:onClick="playGato" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tiger"
+        android:id="@+id/tigre"
+        android:layout_marginStart="49dp"
+        android:layout_alignTop="@+id/gato"
+        android:layout_toEndOf="@+id/gato"
+        android:onClick="playTigre" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/borrico"
+        android:id="@+id/burro"
+        android:layout_marginStart="49dp"
+        android:layout_alignTop="@+id/tigre"
+        android:layout_toEndOf="@+id/tigre"
+        android:onClick="playBurro" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cabra"
+        android:id="@+id/cabra"
+        android:layout_marginStart="49dp"
+        android:layout_alignTop="@+id/burro"
+        android:layout_toEndOf="@+id/burro"
+        android:onClick="playCabra" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mono"
+        android:layout_below="@+id/tigre"
+        android:layout_alignEnd="@+id/perro"
+        android:layout_marginTop="37dp"
+        android:id="@+id/mono"
+        android:onClick="playMono" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vaca"
+        android:id="@+id/cabra"
+        android:layout_marginStart="49dp"
+        android:layout_alignTop="@+id/mono"
+        android:layout_toEndOf="@+id/mono"
+        android:onClick="playVaca" />
 
 </RelativeLayout>

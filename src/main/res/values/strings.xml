@@ -2,4 +2,10 @@
     <string name="app_name">Animales</string>
     <string name="perro">Perro</string>
     <string name="gato">Gato</string>
+    <string name="tigre">Tigre</string>
+    <string name="burro">Burro</string>
+    <string name="cabra">Cabra</string>
+    <string name="gallo">Gallo</string>
+    <string name="mono">Mono</string>
+    <string name="vaca">Vaca</string>
 </resources>
